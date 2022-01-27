@@ -1,5 +1,5 @@
-//modified by:
-//date:
+//modified by: Julius Flores
+//date: 1/27/2022
 //
 //author: Gordon Griesel
 //date: Spring 2022
@@ -253,7 +253,7 @@ void render()
 	glClear(GL_COLOR_BUFFER_BIT);
 	//Draw box.
 	glPushMatrix();
-	glColor3ub(150, 160, 220);
+	glColor3ub(250, 60, 125);
 	glTranslatef(pos[0], pos[1], 0.0f);
 	glBegin(GL_QUADS);
 		glVertex2f(-w, -w);
